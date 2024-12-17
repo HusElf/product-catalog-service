@@ -45,7 +45,7 @@ fs.createReadStream('prod-brand3.csv')
   })
   .on('end', async () => {
     const headers = {
-      Authorization: 'Bearer c0ff22aec5805577d49545173ac89448f0b5d8c913d0850eacaf076b61814db44253074264f0a222a339fa40b4da5adebfe1f3dbbc85e1b705a92cb3c4825158d1f133d11111c932a0b2edf01d8fbbecc55cde3575b4f03cb75b2e3e7b08e89763a38820432ac72d3799e578d456060a8717b670fdb116b23fd7bb60fbc329f9',
+      Authorization: 'Bearer ',
       'Content-Type': 'application/json'
     };
 
