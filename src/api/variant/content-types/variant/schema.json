@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "variants",
+  "info": {
+    "singularName": "variant",
+    "pluralName": "variants",
+    "displayName": "variant",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sku": {
+      "type": "string"
+    },
+    "product": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product.product",
+      "inversedBy": "variants"
+    },
+    "Quantity": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "attribute": {
+      "type": "customField",
+      "options": [
+        "اللون: أحمر",
+        "اللون :اسود",
+        "المقاس :صغير",
+        "المقاس:كبير"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "attributes": {
+      "type": "dynamiczone",
+      "components": [
+        "attribute.mqas-alaksswar"
+      ]
+    }
+  }
+}

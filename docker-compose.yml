@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  strapi:
+    image: mydockerstrapi
+    env_file:
+      .env
+    environment:
+      DATABASE_CLIENT: mysql
+
+      DATABASE_HOST: host.docker.internal
+      DATABASE_PORT: 
+      DATABASE_NAME: strapi
+      DATABASE_USERNAME: admin1
+      DATABASE_PASSWORD: 0916287447Aa@
+    ports:
+      - '1337:1337'

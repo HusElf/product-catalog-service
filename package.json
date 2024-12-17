@@ -1,0 +1,64 @@
+{
+  "name": "strapisql",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "deploy": "strapi deploy"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "4.25.6",
+    "@strapi/plugin-documentation": "^4.25.6",
+    "@strapi/plugin-graphql": "^4.25.6",
+    "@strapi/plugin-i18n": "4.25.6",
+    "@strapi/plugin-users-permissions": "4.25.6",
+    "@strapi/strapi": "4.25.6",
+    "axios": "^1.7.4",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "escape-string-regexp": "^5.0.0",
+    "fast-xml-parser": "^4.4.1",
+    "fs": "^0.0.1-security",
+    "he": "^1.2.0",
+    "html-urls": "^2.4.60",
+    "image-downloader": "^4.3.0",
+    "is-image-url": "^1.1.8",
+    "loadsh": "^0.0.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "mysql2": "^2.3.0",
+    "path": "^0.12.7",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "redis": "^4.7.0",
+    "ssh2": "^1.15.0",
+    "strapi-plugin-custom-api": "^1.0.6",
+    "strapi-plugin-generate-data": "^1.0.32",
+    "strapi-plugin-import-export-entries": "^1.23.1",
+    "strapi-plugin-multi-select": "^1.2.3",
+    "strapi-plugin-random-sort": "^0.0.3",
+    "strapi-plugin-redis": "^1.1.0",
+    "strapi-plugin-rest-cache": "^4.2.9",
+    "strapi-provider-cloudflare-r2": "^0.3.0",
+    "strapi-provider-rest-cache-redis": "^4.2.9",
+    "styled-components": "5.3.3",
+    "turndown": "^7.2.0",
+    "xml2js": "^0.6.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "f31c1607-12ab-4f81-847a-9e8bb82fc337"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
